@@ -1,10 +1,10 @@
-package com.stoics.hackdaystoicapp;
+package com.ryanlisse.springbootchatgpt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HackdayStoicAppApplicationTests {
+class SpringbootChatGptApplicationTests {
 
     @Test
     void contextLoads() {
