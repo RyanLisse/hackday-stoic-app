@@ -4,6 +4,7 @@ import com.ryanlisse.springbootchatgpt.dto.ChatRequestDTO;
 import com.ryanlisse.springbootchatgpt.dto.ChatResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,6 +28,12 @@ public class ChatController {
         public String prompt;
         public String philosopher;
     }
+    @GetMapping("/")
+    public String sayHello(){
+        return "Hello";
+    }
+
+
 
     @PostMapping("/ask")
     public String chat(@RequestBody AskRequest askRequest) {

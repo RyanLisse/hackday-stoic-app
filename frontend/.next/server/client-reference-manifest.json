@@ -131,8 +131,8 @@
       ],
       "async": false
     },
-    "/Users/mainframe/Library/CloudStorage/Dropbox/Ryan/COURSES/Salt/java/hackday-stoic-app/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/mainframe/Library/CloudStorage/Dropbox/Ryan/COURSES/Salt/java/hackday-stoic-app/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Manrope\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"manrope\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Manrope\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"manrope\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

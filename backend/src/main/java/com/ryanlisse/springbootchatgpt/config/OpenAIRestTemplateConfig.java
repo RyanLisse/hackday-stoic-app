@@ -15,9 +15,11 @@ public class OpenAIRestTemplateConfig {
     public RestTemplate openaiRestTemplate() {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.getInterceptors().add((request, body, execution) -> {
+            System.out.println("OpenAI API Key: " + openaiApiKey);
             request.getHeaders().add("Authorization", "Bearer " + openaiApiKey);
             return execution.execute(request, body);
         });
         return restTemplate;
     }
+
 }
