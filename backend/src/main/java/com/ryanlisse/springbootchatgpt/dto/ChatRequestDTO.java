@@ -11,7 +11,7 @@ public record ChatRequestDTO(String model, List<Message> messages, int n, double
                 model,
                 new ArrayList<>(List.of(
                         new Message("system",
-                                "I want you to act as a philosopher that speaks like " + philosopher + "."),
+                                "I want you to act as a philosopher that speaks like " + philosopher),
                         new Message("user", content)
                 )),
                 1,
